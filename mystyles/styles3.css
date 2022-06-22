@@ -1,0 +1,58 @@
+
+*{
+  box-sizing: border-box;
+}
+
+/* General */
+
+body {
+  font-family: helvetica;
+  color: #FFFFFF;
+  background-color: #444444;
+  margin: 50px 100px;
+}
+
+/* Text */
+
+h1 {
+  font-size: 60px;
+  line-height: 2;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+
+
+/* Map */
+
+#map {
+  height: 500px;
+  width: 1000px;
+  align-content: center;
+}
+
+/* Popup */
+
+ .mapboxgl-popup-close-button {
+  color: lightyellow;
+  font-size: 20px;
+}
+.mapboxgl-popup-content {
+  color: lightyellow;
+  padding: 30opx 10px 30px 10px;
+  background-color: darksalmon;
+}
+.mapboxgl-popup-content h2 {
+  color: ghostwhite;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+/* Weather information */
+
+#weather {
+  background-color: black;
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+}
